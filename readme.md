@@ -16,11 +16,13 @@ mvn test
 ```
 #### **When running**
 
-step 0: gui is visible
+**step 0:** gui is visible
 ![state 0](https://github.com/Unachieved/Asymmetrik/blob/main/readmeImgs/usage0.png)
-step 1: place business card data in left text area of gui
+
+**step 1:** place business card data in left text area of gui
 ![state 1](https://github.com/Unachieved/Asymmetrik/blob/main/readmeImgs/usage1.png)
-step 2: click parse
+
+**step 2:** click parse
 ![state 2](https://github.com/Unachieved/Asymmetrik/blob/main/readmeImgs/usage2.png)
 
 done
@@ -28,7 +30,10 @@ done
 ## **Extra**
 
 Requirements for the component may be attained form the following links:
-Java:  [get java](https://www.java.com/en/)
-Maven: [get maven](https://maven.apache.org/index.html)
 
-*For more information regarding the component view the Software Requirement Specifications document*
+**Java:**  [get java](https://www.java.com/en/)
+
+**Maven:** [get maven](https://maven.apache.org/index.html)
+
+*For more information regarding the component view the 
+[Software Requirement Specifications](https://github.com/Unachieved/Asymmetrik/blob/main/Software%20Requirements%20Specification.pdf) document*
