@@ -1,6 +1,6 @@
 # **Business Card OCR**
 
-##  Introduction
+##  **Introduction**
 
 #### **About**
 
@@ -13,18 +13,18 @@ The project uses:
 * Maven 3.6.3 -- packaging
     * checkstyle -- style enforcer
 
-#### **Platform Compliance
+#### Platform Compliance
 
 The component has been tested on:
 * Mac OS X - mojave
 
 ## **Setup**
 
-Requirements for the component may be attained form the following links:
+Requirements for the component may be attained from the following links:
 
-**Java:**  [get java](https://www.java.com/en/)
+**Java:**  [Get Java](https://www.java.com/en/)
 
-**Maven:** [get maven](https://maven.apache.org/index.html)
+**Maven:** [Get Maven](https://maven.apache.org/index.html)
 
 ## **Terminal Usage**
 
@@ -51,7 +51,7 @@ mvn test
 **step 2:** click parse
 ![state 2](https://github.com/Unachieved/Asymmetrik/blob/main/readmeImgs/usage2.png)
 
-done
+**done**
 
 
 *For more information regarding the component view the 
