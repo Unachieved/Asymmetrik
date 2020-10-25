@@ -1,5 +1,31 @@
 # **Business Card OCR**
 
+##  Introduction
+
+#### **About**
+
+The following component parses data from an business card reader in accordance
+with the specifications detailed in the [SRS](https://github.com/Unachieved/Asymmetrik/blob/main/Software%20Requirements%20Specification.pdf). 
+
+The project uses:
+
+* JavaSE 1.8 -- java compiler
+* Maven 3.6.3 -- packaging
+    * checkstyle -- style enforcer
+
+#### **Platform Compliance
+
+The component has been tested on:
+* Mac OS X - mojave
+
+## **Setup**
+
+Requirements for the component may be attained form the following links:
+
+**Java:**  [get java](https://www.java.com/en/)
+
+**Maven:** [get maven](https://maven.apache.org/index.html)
+
 ## **Terminal Usage**
 
 *Requires: JavaSE-1.8, Apache Maven 3.6.3*
@@ -27,13 +53,6 @@ mvn test
 
 done
 
-## **Extra**
-
-Requirements for the component may be attained form the following links:
-
-**Java:**  [get java](https://www.java.com/en/)
-
-**Maven:** [get maven](https://maven.apache.org/index.html)
 
 *For more information regarding the component view the 
 [Software Requirement Specifications](https://github.com/Unachieved/Asymmetrik/blob/main/Software%20Requirements%20Specification.pdf) document*
