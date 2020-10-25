@@ -12,6 +12,8 @@ import java.util.regex.Pattern;
  */
 public class BusinessCardParser implements BusinessCardParserInterface {
 
+    private static final int MAX_PHONE_LENGTH = 16;
+
     /**
      * view BusinessCardParserInterface.
      */
@@ -31,8 +33,9 @@ public class BusinessCardParser implements BusinessCardParserInterface {
         BufferedReader bufReader = new BufferedReader(new StringReader(document));
 
         //Regexes for filtering phone and email addresses from the data
-        String phoneRegex = "(1\\s?\\-?)?\\s?([0-9]{3}|\\([0-9]{3}\\))\\s?\\-?\\s?[0-9]{3}\\s?\\-?\\s?[0-9]{4}$";
-        String emailRegex = "[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+";
+        String phoneRegex = "(\\d\\W{0,4}\\d\\W{0,4}?\\d\\W{0,4}?\\d\\W{0,4}?\\d\\W{0,4}?\\d\\W{0,4}?)";
+        String emailRegex = "[a-z0-9!#$%&'*+/=?^_‘{|}~-]+(?:.[a-z0-9!#$%&'*+/=?^_‘{|}~-]+)*@"
+                    + "(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\z";
 
         //Stores the lines containing the corresponding variable names if found
         //otherwise remains and empty string
@@ -53,7 +56,7 @@ public class BusinessCardParser implements BusinessCardParserInterface {
                 // check if line contains contact phone number
                 // else check if line contains contact email address
                 if (phoneMatcher.find() && !line.toLowerCase().contains("fax")) {
-                    phoneLine = line.substring(phoneMatcher.start(), phoneMatcher.end());
+                    phoneLine = line;
                 } else if (emailMatcher.find()) {
                     emailLine = line.substring(emailMatcher.start(), emailMatcher.end());
                 }
@@ -104,6 +107,12 @@ public class BusinessCardParser implements BusinessCardParserInterface {
         //the final phone string from the line containing the phone number
         //after removing all non digit characters
         String phone = phoneLine.replaceAll("\\D+", "");
+
+        //phone standard is based on E.164 which states phone numbers are
+        //a maximum of length 15
+        if (phone.length() > MAX_PHONE_LENGTH) {
+            phone = "";
+        }
 
         return new String[]{nameLine, phone, emailLine};
     }

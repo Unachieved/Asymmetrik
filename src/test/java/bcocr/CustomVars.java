@@ -13,10 +13,10 @@ public final class CustomVars {
     private static final int TVAL5 = 5;
 
     //pair 1
-    private static String in1 = "custName@custCompany.com";
+    private static String in1 = "custname@custcompany.com";
     private static String out1 = "Name: \n"
                 + "Phone: \n"
-                + "Email: custName@custCompany.com";
+                + "Email: custname@custcompany.com";
 
     //pair 2
     private static String in2 = "1234567890";
@@ -25,27 +25,27 @@ public final class CustomVars {
                 + "Email: ";
 
     //pair 3
-    private static String in3 = "custName@custCompany.com\n"
+    private static String in3 = "custname@custcompany.com\n"
                 + "1234567890\n"
                 + "Invalid Person";
     private static String out3 = "Name: \n"
                 + "Phone: 1234567890\n"
-                + "Email: custName@custCompany.com";
+                + "Email: custname@custcompany.com";
 
     //pair 4
-    private static String in4 = "custName@custCompany.com";
+    private static String in4 = "custname@custcompany.com";
     private static String out4 = "Name: \n"
                 + "Phone: \n"
-                + "Email: custName@custCompany.com";
+                + "Email: custname@custcompany.com";
 
     //pair 5
-    private static String in5 = "custName@custCompany.com\n"
+    private static String in5 = "custname@custcompany.com\n"
                 + "1234567890\n"
                 + "Cust Name\n"
                 + "Company Name";
     private static String out5 = "Name: \n"
                 + "Phone: 1234567890\n"
-                + "Email: custName@custCompany.com";
+                + "Email: custname@custcompany.com";
 
     //pair 6
     private static String in6 = "";
