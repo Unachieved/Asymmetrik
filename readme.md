@@ -1,6 +1,6 @@
-#**Business Card OCR**
+# **Business Card OCR**
 
-##**Terminal Usage**
+## **Terminal Usage**
 
 *Requires: JavaSE-1.8, Apache Maven 3.6.3*
 **To Run:** 
@@ -10,18 +10,18 @@
 **To Test:**
     mvn test
 
-##**When running**
+## **When running**
 
 step 0: gui is visible
-![state 0](/readmeImgs/usage0)
+![state 0](https://github.com/Unachieved/Asymmetrik/blob/main/readmeImgs/usage0.png)
 step 1: place business card data in left text area of gui
-![state 1](/readmeImgs/usage1)
+![state 1](https://github.com/Unachieved/Asymmetrik/blob/main/readmeImgs/usage1.png)
 step 2: click parse
-![state 2](/readmeImgs/usage2)
+![state 2](https://github.com/Unachieved/Asymmetrik/blob/main/readmeImgs/usage2.png)
 
 done
 
-**Extra**##
+## **Extra**
 
 Requirements for the component may be attained form the following links:
 Java:  [get java](https://www.java.com/en/)
