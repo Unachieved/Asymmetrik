@@ -4,7 +4,7 @@
 
 #### **About**
 
-The following component parses data from an business card reader in accordance
+The following component parses data from a business card reader in accordance
 with the specifications detailed in the [SRS](https://github.com/Unachieved/Asymmetrik/blob/main/Software%20Requirements%20Specification.pdf). 
 
 The project uses:
