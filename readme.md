@@ -3,14 +3,18 @@
 ## **Terminal Usage**
 
 *Requires: JavaSE-1.8, Apache Maven 3.6.3*
-**To Run:** 
-    mvn package
-    java -cp target/bcocr-1.0-SNAPSHOT.jar bcocr.App
 
-**To Test:**
-    mvn test
+#### **To Run:** 
+```
+mvn package
+java -cp target/bcocr-1.0-SNAPSHOT.jar bcocr.App
+```
 
-## **When running**
+#### **To Test:**
+```
+mvn test
+```
+#### **When running**
 
 step 0: gui is visible
 ![state 0](https://github.com/Unachieved/Asymmetrik/blob/main/readmeImgs/usage0.png)
