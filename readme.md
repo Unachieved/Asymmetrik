@@ -26,9 +26,11 @@ Requirements for the component may be attained from the following links:
 
 **Maven:** [Get Maven](https://maven.apache.org/index.html)
 
-## **Terminal Usage**
-
+## **Usage**
 *Requires: JavaSE-1.8, Apache Maven 3.6.3*
+
+All commands should be executed which in the root directory of the Asymmetrik 
+project using a bash terminal
 
 #### **To Run:** 
 ```
